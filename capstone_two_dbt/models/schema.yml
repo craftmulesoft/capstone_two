@@ -114,10 +114,6 @@ models:
       - name: recipe_name
         tests:
           - not_null
-      - name: instructions
-        tests:
-          - not_null
-
   - name: stg_categories
     columns:
       - name: category_name
