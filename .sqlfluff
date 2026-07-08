@@ -4,4 +4,3 @@ templater = dbt
 
 [sqlfluff:templater:dbt]
 project_dir = capstone_two_dbt
-

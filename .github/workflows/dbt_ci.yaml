@@ -93,7 +93,7 @@ jobs:
 
       - name: SQLFluff Lint
         run: |
-          sqlfluff lint ecommerce_dbt/models
+          sqlfluff lint capstone_two_dbt/models
 
       ##################################################
       # dbt Debug
