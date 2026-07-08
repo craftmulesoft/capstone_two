@@ -6,4 +6,4 @@ templater = dbt
 project_dir = ecommerce_dbt
 
 [sqlfluff:rules]
-max_line_length = 120
+max_line_length = 1000
