@@ -7,7 +7,7 @@ Try running the following commands:
 - dbt test
 - dbt clean
 - dbt debug
-- dbt <command of the dbt>
+- dbt <command of the dbt file>
 
 
 ### Resources:

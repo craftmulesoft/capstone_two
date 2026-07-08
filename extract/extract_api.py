@@ -14,7 +14,7 @@ ENDPOINTS = {
     "comments": "comments",
     "quotes": "quotes",
     "recipes": "recipes",
-    "categories": "products/categories"
+    "categories": "products/categories",
 }
 
 RAW_ROOT = Path("data/raw")

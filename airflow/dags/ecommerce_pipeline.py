@@ -101,11 +101,4 @@ with DAG(
     # Workflow
     # ----------------------------------------------------
 
-    (
-        extract_api
-        >> load_snowflake
-        >> dbt_run
-        >> dbt_test
-        >> dbt_docs
-        >> quality_check
-    )
+    (extract_api >> load_snowflake >> dbt_run >> dbt_test >> dbt_docs >> quality_check)
