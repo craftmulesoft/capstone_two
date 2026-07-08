@@ -3,7 +3,5 @@ dialect = snowflake
 templater = dbt
 
 [sqlfluff:templater:dbt]
-project_dir = ecommerce_dbt
+project_dir = capstone_two_dbt
 
-[sqlfluff:rules]
-max_line_length = 1000
