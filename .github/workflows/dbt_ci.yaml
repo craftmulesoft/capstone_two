@@ -93,7 +93,8 @@ jobs:
 
       - name: SQLFluff Lint
         run: |
-          sqlfluff lint capstone_two_dbt/models
+          python -m sqlfluff lint capstone_two_dbt/models \
+           --profiles-dir ~/.dbt
 
       ##################################################
       # dbt Debug
