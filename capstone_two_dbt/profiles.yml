@@ -10,7 +10,7 @@ capstone_two_dbt:
       password: Gingerbread9@gingerbread
       role: ACCOUNTADMIN
       warehouse: COMPUTE_WH
-      database: CAPSTONE_TWO_DBT
+      database: CAPSTONE_TWO_DB
       schema: RAW
 
       threads: 4
