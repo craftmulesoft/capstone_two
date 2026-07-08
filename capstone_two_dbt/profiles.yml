@@ -5,14 +5,13 @@ capstone_two_dbt:
     dev:
       type: snowflake
 
-      account: "WQVQPDM-NV38719"
-      user: "CRAFTSOFT"
-      password: "Gingerbread9@gingerbread"
-
-      role: "ACCOUNTADMIN"
-      warehouse: "COMPUTE_WH"
-      database: "CAPSTONE_TWO_DBT"
-      schema: "RAW"
+      account: WQVQPDM-NV38719
+      user: CRAFTSOFT
+      password: Gingerbread9@gingerbread
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: CAPSTONE_TWO_DBT
+      schema: RAW
 
       threads: 4
 
