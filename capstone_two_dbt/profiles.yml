@@ -5,14 +5,14 @@ capstone_two_dbt:
     dev:
       type: snowflake
 
-      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
-      user: "{{ env_var('SNOWFLAKE_USER') }}"
-      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      account: "WQVQPDM-NV38719"
+      user: "CRAFTSOFT"
+      password: "Gingerbread9@gingerbread"
 
-      role: "{{ env_var('SNOWFLAKE_ROLE') }}"
-      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE') }}"
-      database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
-      schema: STAGING
+      role: "ACCOUNTADMIN"
+      warehouse: "COMPUTE_WH"
+      database: "CAPSTONE_TWO_DBT"
+      schema: RAW
 
       threads: 4
 
