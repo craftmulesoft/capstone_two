@@ -103,7 +103,7 @@ jobs:
       - name: dbt Debug
         run: |
           cd capstone_two_dbt
-          dbt debug --profiles-dir .
+          dbt debug
 
       ##################################################
       # dbt Run
@@ -112,7 +112,7 @@ jobs:
       - name: dbt Run
         run: |
           cd capstone_two_dbt
-          dbt run --profiles-dir .
+          dbt run
 
       ##################################################
       # dbt Test
@@ -121,7 +121,7 @@ jobs:
       - name: dbt Test
         run: |
           cd capstone_two_dbt
-          dbt test --profiles-dir .
+          dbt test
 
       ##################################################
       # Generate Documentation
@@ -130,7 +130,7 @@ jobs:
       - name: Generate dbt Documentation
         run: |
           cd capstone_two_dbt
-          dbt docs generate --profiles-dir .
+          dbt docs generate
 
       ##################################################
       # Upload dbt Documentation

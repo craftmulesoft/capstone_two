@@ -12,7 +12,7 @@ capstone_two_dbt:
       role: "ACCOUNTADMIN"
       warehouse: "COMPUTE_WH"
       database: "CAPSTONE_TWO_DBT"
-      schema: RAW
+      schema: "RAW"
 
       threads: 4
 
